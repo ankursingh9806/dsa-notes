@@ -58,6 +58,7 @@ class CircularQueue {
         return (this.tail + 1) % this.size === this.head;
     }
 }
+// usage
 const obj = new CircularQueue(3);
 console.log(obj.enqueue(1)); // true
 console.log(obj.enqueue(2)); // true
