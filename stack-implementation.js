@@ -39,6 +39,7 @@ class Stack {
         return 'st cleared';
     }
 }
+// usage
 const obj = new Stack();
 obj.push(5);
 obj.push(13);
