@@ -39,6 +39,7 @@ class Queue {
         return 'q cleared';
     }
 };
+// usage
 const obj = new Queue();
 obj.enqueue(5);
 obj.enqueue(13);
